@@ -1,0 +1,148 @@
+[
+    {
+        "name": "Homem-Aranha",
+        "caracteristicas": [
+            "Homem",
+            "Não tem capa",
+            "Humano",
+            "Não voa",
+            "Teia"
+        ],
+        "profilePicture": "./homem-aranha.jpg"
+    },
+    {
+        "name": "Deadpool",
+        "caracteristicas": [
+            "Homem",
+            "Não tem capa",
+            "Humano",
+            "Não voa",
+            "Imortalidade"
+        ],
+        "profilePicture": "./deadpool.jpg"
+    },
+    {
+        "name": "Batman",
+        "caracteristicas": [
+            "Homem",
+            "Tem capa",
+            "Humano",
+            "Não voa",
+            "Dinheiro"
+        ],
+        "profilePicture": "./batman.jpg"
+    },
+    {
+        "name": "Superman",
+        "caracteristicas": [
+            "Homem",
+            "Tem capa",
+            "Näo humano",
+            "Voa",
+            "Raio laser"
+        ],
+        "profilePicture": "./superman.jpg"
+    },
+    {
+        "name": "Mulher Maravilha",
+        "caracteristicas": [
+            "Mulher",
+            "Não tem capa",
+            "Humano",
+            "Não voa",
+            "Mulher"
+        ],
+        "profilePicture": "./mulher-maravilha.jpg"
+    },
+    {
+        "name": "Veio da Havan",
+        "caracteristicas": [
+            "Homem",
+            "Tem capa",
+            "Não é humano",
+            "Voa",
+            "Dinheiro"
+        ],
+        "profilePicture": "./veio-da-havan.jpg"
+    },
+    {
+        "name": "Mulher Gato",
+        "caracteristicas": [
+            "Mulher",
+            "Não tem capa",
+            "Humana",
+            "Não voa",
+            ""
+        ],
+        "profilePicture": "./mulher-gato.jpg"
+    },
+    {
+        "name": "Mercúrio",
+        "caracteristicas": [
+            "Homem",
+            "Não tem capa",
+            "Humano",
+            "Não voa",
+            "Velocidade"
+        ],
+        "profilePicture": "./mercurio.jpg"
+    },
+    {
+        "name": "Flash",
+        "caracteristicas": [
+            "Homem",
+            "Não tem capa",
+            "Humano",
+            "Não voa",
+            "Velocidade"
+        ],
+        "profilePicture": "./flash.jpg"
+    },
+    {
+        "name": "Thor",
+        "caracteristicas": [
+            "Homem",
+            "Tem capa",
+            "Voa"
+        ],
+        "profilePicture": "./thor.jpg"
+    },
+    {
+        "name": "Wolverine",
+        "caracteristicas": [
+            "Homem",
+            "Não tem capa",
+            "Humano",
+            "Não voa"
+        ],
+        "profilePicture": "./wolverine.jpg"
+    },
+    {
+        "name": "Lanterna Verde",
+        "caracteristicas": [
+            "Homem",
+            "Não tem capa",
+            "Humano",
+            "Voa"
+        ],
+        "profilePicture": "./lanterna-verde.jpg"
+    },
+    {
+        "name": "Pantera Negra",
+        "caracteristicas": [
+            "Homem",
+            "Não tem capa",
+            "Humano",
+            "Não voa"
+        ],
+        "profilePicture": "./pantera-negra.jpg"
+    },
+    {
+        "name": "Meliodas",
+        "caracteristicas": [
+            "Homem",
+            "Não tem capa"
+        ],
+        "profilePicture": "./meliodas.jpg"
+    }
+]
