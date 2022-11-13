@@ -106,7 +106,6 @@
             "Não é humano",
             "Voa",
             "Relampagos"
-            
         ],
         "profilePicture": "./thor.jpg"
     },
@@ -141,7 +140,7 @@
             "Não voa",
             "Traje de Vibranium"
         ],
-        "profilePicture": "./pantera-negra.jpg"
+        "profilePicture": "./pantera-negra.jpeg"
     },
     {
         "name": "Meliodas",
