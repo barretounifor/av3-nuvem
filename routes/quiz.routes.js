@@ -25,29 +25,30 @@ quizRouter.get('/find-hero', (req, res) => {
     }
     return res.json({ message: 'Nenhum herói encontrado com essas características.' })
 })
-quizRouter.get('/hero-matches', (req, res) =>{
+quizRouter.get('/hero-matches', (req, res) => {
     const { options } = req.body;
     const heroesMatches = [];
     console.log(options)
-    herolist.forEach(hero => {
+    heroList.forEach(hero => {
         let thatHeroMatches = 0;
         const gen = hero.caracteristicas[0];
         const haveCover = hero.caracteristicas[1];
         const humanOrnot = hero.caracteristicas[2];
         const fly = hero.caracteristicas[3];
-        if (gen == options[0]){
+        console.log("------------------------");
+        if (gen == options[0]) {
             thatHeroMatches++
         }
-        if (haveCover == options[1]){
+        if (haveCover == options[1]) {
             thatHeroMatches++
         }
-        if(humanOrnot == options[2]){
+        if (humanOrnot == options[2]) {
             thatHeroMatches++
         }
-        if(fly == options[3]){
-            thatHeroMatches
+        if (fly == options[3]) {
+            thatHeroMatches++
         }
-        if(thatHeroMatches == 4){
+        if (thatHeroMatches == 4) {
             heroesMatches.push(hero);
         }
     })
