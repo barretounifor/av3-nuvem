@@ -26,7 +26,6 @@ quizRouter.get('/find-hero', (req, res) => {
     return res.json({ message: 'Nenhum herói encontrado com essas características.' })
 })
 quizRouter.post('/hero-matches', (req, res) => {
-    console.log(req.body);
     const { options } = req.body;
     const heroesMatches = [];
     heroList.forEach(hero => {
@@ -35,6 +34,10 @@ quizRouter.post('/hero-matches', (req, res) => {
         const haveCover = hero.caracteristicas[1];
         const humanOrnot = hero.caracteristicas[2];
         const fly = hero.caracteristicas[3];
+        console.log({gen, haveCover, humanOrnot, fly })
+        console.log(req.body);
+
+        //localStorage.setItem("answers",`["Homem","Tem Capa","É humano","Voa"]`) 
         if (gen == options[0]) {
             thatHeroMatches++
         }
@@ -49,7 +52,9 @@ quizRouter.post('/hero-matches', (req, res) => {
         }
         if (thatHeroMatches == 4) {
             heroesMatches.push(hero);
+        
         }
+
     })
     return res.json(heroesMatches);
 })
