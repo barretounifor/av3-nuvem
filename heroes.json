@@ -8,7 +8,7 @@
             "Não voa",
             "Teia"
         ],
-        "profilePicture": "./homem-aranha.jpg"
+        "profilePicture": "./homem-aranha.png"
     },
     {
         "name": "Deadpool",
@@ -19,7 +19,7 @@
             "Não voa",
             "Imortalidade"
         ],
-        "profilePicture": "./deadpool.jpg"
+        "profilePicture": "./deadpool.jpeg"
     },
     {
         "name": "Batman",
@@ -30,7 +30,7 @@
             "Não voa",
             "Dinheiro"
         ],
-        "profilePicture": "./batman.jpg"
+        "profilePicture": "./batman.jpeg"
     },
     {
         "name": "Superman",
@@ -107,7 +107,7 @@
             "Voa",
             "Relampagos"
         ],
-        "profilePicture": "./thor.jpg"
+        "profilePicture": "./thor.jpeg"
     },
     {
         "name": "Wolverine",
@@ -118,7 +118,7 @@
             "Não voa",
             "Adamantium"
         ],
-        "profilePicture": "./wolverine.jpg"
+        "profilePicture": "./wolverine.jpeg"
     },
     {
         "name": "Lanterna Verde",
