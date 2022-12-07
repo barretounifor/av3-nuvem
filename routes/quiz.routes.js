@@ -34,7 +34,7 @@ quizRouter.post('/hero-matches', (req, res) => {
         const haveCover = hero.caracteristicas[1];
         const humanOrnot = hero.caracteristicas[2];
         const fly = hero.caracteristicas[3];
-        console.log({gen, haveCover, humanOrnot, fly })
+        console.log({ gen, haveCover, humanOrnot, fly })
         console.log(req.body);
 
         //localStorage.setItem("answers",`["Homem","Tem Capa","É humano","Voa"]`) 
@@ -52,10 +52,10 @@ quizRouter.post('/hero-matches', (req, res) => {
         }
         if (thatHeroMatches == 4) {
             heroesMatches.push(hero);
-        
+
         }
 
     })
-    return res.json(heroesMatches);
+    return res.json({ message: "Qual o poder do seu herói?", answers: heroesMatches });
 })
 module.exports = quizRouter;
